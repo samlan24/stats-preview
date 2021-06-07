@@ -1,0 +1,55 @@
+/*font-family: 'Inter', sans-serif;*/
+  *{
+      margin: 0;
+      padding: 0;
+  }
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+
+main{
+    background: hsl(233, 47%, 7%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    background: hsl(244, 38%, 16%);
+    display: flex;
+}
+.col-2{
+    flex-basis: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+   
+}
+
+.card-info h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.card-info p{
+    margin-bottom: 50px;
+}
+.stats{
+    display: flex;
+    justify-content: start;
+}
+
