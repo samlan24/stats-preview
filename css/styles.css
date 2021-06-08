@@ -19,6 +19,7 @@ h1{
 
 p{
     color:hsla(0, 0%, 100%, 0.6);
+    font-size: 18px;
 }
 
 h3{
@@ -30,9 +31,13 @@ span{
 img{
     min-width: 100%;
     height: 100%;
+    mix-blend-mode:overlay;
 }
 .mobile{
     display: none;
+}
+.card-img{
+    background: hsl(277, 64%, 61%);
 }
 .card{
     background: hsl(244, 38%, 16%);
